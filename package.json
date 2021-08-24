@@ -1,0 +1,20 @@
+{
+  "name": "amplify-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "aws-amplify": "^4.2.4",
+    "aws-amplify-react": "^5.0.10"
+  }
+}
